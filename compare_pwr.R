@@ -9,6 +9,7 @@ pnorm(.6, lower = F)
 
 pwr.t.test(100, .1, .05, type = 'two.sample')
 pwr.t.test(100, .1, .05, type = 'one.sample')
+pwr.t2n.test(100, 200, .1, .05)
 pwr.chisq.test(.1, 10, 10, .05)
 pwr.f2.test(10, 20, .1, .05)
 pwr.anova.test(2, 3, .1, .05)
